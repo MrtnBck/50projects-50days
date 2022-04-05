@@ -13,10 +13,10 @@ body {
   margin: 0;
 }
 
-.container {
+.square-container {
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: start;
   flex-wrap: wrap;
   max-width: 400px;
 }
@@ -32,4 +32,19 @@ body {
 
 .square:hover {
   transition-duration: 0s;
+}
+.btn {
+  padding: 0.5rem;
+  background-color: #7d7d7d;
+  border: none;
+  margin: 1rem 0.5rem 1rem 1px;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: #cccdc6;
+}
+
+.mosaic {
+  background-color: red;
 }
